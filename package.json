@@ -1,0 +1,21 @@
+{
+  "name": "team-assigner",
+  "version": "1.0.0",
+  "description": "Discord bot that will auto-assign teams.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "nodemon ./bot.js"
+  },
+  "keywords": [
+    "discord-bot",
+    "bot",
+    "javascript"
+  ],
+  "author": "Jimmyboy",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.11.13"
+  }
+}
